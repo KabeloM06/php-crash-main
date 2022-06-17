@@ -33,6 +33,15 @@ $cash_in_wallet = 52.32; //float
 echo $name . ' is ' . $age . ' years old and sexy';
 echo "$name has $cash_in_wallet in his wallet";
 
-echo 5 + 5;
+echo 5 + 3;
+echo 10 - 1;
+echo 3 * 7;
+echo 15 / 3;
+echo 10 % 3; // gives remainder after devision
 
 var_dump($age);
+
+// Create a constant
+// define('NAME_OF_CONSTANT_CAPATILISED','value');
+define('HOST', 'localhost');
+echo HOST;  
